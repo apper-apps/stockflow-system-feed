@@ -20,15 +20,22 @@ const Products = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingProduct, setEditingProduct] = useState(null);
 
-  const loadProducts = async () => {
+const loadProducts = async () => {
     try {
       setLoading(true);
       setError('');
       const data = await productService.getAll();
-      setProducts(data);
-      setFilteredProducts(data);
+      
+      // Ensure data is valid before setting state
+      const validData = Array.isArray(data) ? data : [];
+      setProducts(validData);
+      setFilteredProducts(validData);
     } catch (err) {
+      console.error('Error loading products:', err);
       setError('Failed to load products');
+      // Set empty arrays as fallback to prevent downstream errors
+      setProducts([]);
+      setFilteredProducts([]);
     } finally {
       setLoading(false);
     }
