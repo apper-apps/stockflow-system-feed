@@ -25,12 +25,13 @@ export default {
           600: '#475569',
           700: '#334155',
         },
-        accent: {
+accent: {
           50: '#ecfdf5',
           100: '#d1fae5',
           500: '#10b981',
           600: '#059669',
           700: '#047857',
+          800: '#065f46',
         },
         surface: '#ffffff',
         background: '#f8fafc',
