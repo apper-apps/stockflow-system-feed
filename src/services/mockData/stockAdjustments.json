@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 1,
+    "productId": 2,
+    "quantity": -10,
+    "reason": "damage",
+    "timestamp": "2024-01-25T09:30:00Z"
+  },
+  {
+    "Id": 2,
+    "productId": 4,
+    "quantity": -5,
+    "reason": "theft",
+    "timestamp": "2024-01-26T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "productId": 1,
+    "quantity": 25,
+    "reason": "restock",
+    "timestamp": "2024-01-27T10:15:00Z"
+  },
+  {
+    "Id": 4,
+    "productId": 6,
+    "quantity": -3,
+    "reason": "return",
+    "timestamp": "2024-01-28T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "productId": 5,
+    "quantity": 50,
+    "reason": "restock",
+    "timestamp": "2024-01-29T11:30:00Z"
+  },
+  {
+    "Id": 6,
+    "productId": 3,
+    "quantity": -2,
+    "reason": "correction",
+    "timestamp": "2024-01-30T13:20:00Z"
+  },
+  {
+    "Id": 7,
+    "productId": 8,
+    "quantity": 15,
+    "reason": "restock",
+    "timestamp": "2024-01-31T08:45:00Z"
+  }
+]

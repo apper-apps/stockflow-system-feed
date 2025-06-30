@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "name": "Premium Wireless Headphones",
+    "sku": "WH-001",
+    "price": 199.99,
+    "stock": 45,
+    "lowStockThreshold": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-20T14:22:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Smart Fitness Tracker",
+    "sku": "FT-002",
+    "price": 89.99,
+    "stock": 5,
+    "lowStockThreshold": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300",
+    "createdAt": "2024-01-16T09:15:00Z",
+    "updatedAt": "2024-01-21T11:45:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Portable Bluetooth Speaker",
+    "sku": "BS-003",
+    "price": 79.99,
+    "stock": 28,
+    "lowStockThreshold": 12,
+    "imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300",
+    "createdAt": "2024-01-17T13:20:00Z",
+    "updatedAt": "2024-01-22T16:30:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Wireless Charging Pad",
+    "sku": "WC-004",
+    "price": 34.99,
+    "stock": 3,
+    "lowStockThreshold": 8,
+    "imageUrl": "https://images.unsplash.com/photo-1586953555403-d0824fb8db6b?w=300",
+    "createdAt": "2024-01-18T08:45:00Z",
+    "updatedAt": "2024-01-23T12:15:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "USB-C Hub Multi-Port Adapter",
+    "sku": "UH-005",
+    "price": 49.99,
+    "stock": 67,
+    "lowStockThreshold": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=300",
+    "createdAt": "2024-01-19T15:30:00Z",
+    "updatedAt": "2024-01-24T09:40:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Ergonomic Wireless Mouse",
+    "sku": "EM-006",
+    "price": 24.99,
+    "stock": 12,
+    "lowStockThreshold": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=300",
+    "createdAt": "2024-01-20T11:00:00Z",
+    "updatedAt": "2024-01-25T14:20:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "Mechanical Gaming Keyboard",
+    "sku": "GK-007",
+    "price": 129.99,
+    "stock": 18,
+    "lowStockThreshold": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=300",
+    "createdAt": "2024-01-21T12:45:00Z",
+    "updatedAt": "2024-01-26T10:35:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "4K Webcam with Auto Focus",
+    "sku": "WC-008",
+    "price": 159.99,
+    "stock": 22,
+    "lowStockThreshold": 8,
+    "imageUrl": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=300",
+    "createdAt": "2024-01-22T14:15:00Z",
+    "updatedAt": "2024-01-27T13:50:00Z"
+  }
+]

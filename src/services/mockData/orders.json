@@ -1,0 +1,120 @@
+[
+  {
+    "Id": 1,
+    "orderNumber": "ORD-0001",
+    "customerName": "Sarah Johnson",
+    "customerAddress": "123 Main St, Boston, MA 02101",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "Premium Wireless Headphones",
+        "quantity": 1,
+        "unitPrice": 199.99,
+        "subtotal": 199.99
+      },
+      {
+        "productId": 3,
+        "productName": "Portable Bluetooth Speaker",
+        "quantity": 2,
+        "unitPrice": 79.99,
+        "subtotal": 159.98
+      }
+    ],
+    "totalAmount": 359.97,
+    "status": "delivered",
+    "createdAt": "2024-01-28T09:30:00Z"
+  },
+  {
+    "Id": 2,
+    "orderNumber": "ORD-0002",
+    "customerName": "Michael Chen",
+    "customerAddress": "456 Oak Ave, San Francisco, CA 94102",
+    "items": [
+      {
+        "productId": 2,
+        "productName": "Smart Fitness Tracker",
+        "quantity": 1,
+        "unitPrice": 89.99,
+        "subtotal": 89.99
+      }
+    ],
+    "totalAmount": 89.99,
+    "status": "shipped",
+    "createdAt": "2024-01-29T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "orderNumber": "ORD-0003",
+    "customerName": "Emily Rodriguez",
+    "customerAddress": "789 Pine St, Seattle, WA 98101",
+    "items": [
+      {
+        "productId": 5,
+        "productName": "USB-C Hub Multi-Port Adapter",
+        "quantity": 1,
+        "unitPrice": 49.99,
+        "subtotal": 49.99
+      },
+      {
+        "productId": 6,
+        "productName": "Ergonomic Wireless Mouse",
+        "quantity": 1,
+        "unitPrice": 24.99,
+        "subtotal": 24.99
+      },
+      {
+        "productId": 7,
+        "productName": "Mechanical Gaming Keyboard",
+        "quantity": 1,
+        "unitPrice": 129.99,
+        "subtotal": 129.99
+      }
+    ],
+    "totalAmount": 204.97,
+    "status": "processing",
+    "createdAt": "2024-01-30T10:15:00Z"
+  },
+  {
+    "Id": 4,
+    "orderNumber": "ORD-0004",
+    "customerName": "David Kim",
+    "customerAddress": "321 Elm St, Austin, TX 73301",
+    "items": [
+      {
+        "productId": 8,
+        "productName": "4K Webcam with Auto Focus",
+        "quantity": 1,
+        "unitPrice": 159.99,
+        "subtotal": 159.99
+      },
+      {
+        "productId": 4,
+        "productName": "Wireless Charging Pad",
+        "quantity": 2,
+        "unitPrice": 34.99,
+        "subtotal": 69.98
+      }
+    ],
+    "totalAmount": 229.97,
+    "status": "pending",
+    "createdAt": "2024-01-31T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "orderNumber": "ORD-0005",
+    "customerName": "Jessica Wilson",
+    "customerAddress": "654 Maple Dr, Miami, FL 33101",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "Premium Wireless Headphones",
+        "quantity": 2,
+        "unitPrice": 199.99,
+        "subtotal": 399.98
+      }
+    ],
+    "totalAmount": 399.98,
+    "status": "delivered",
+    "createdAt": "2024-02-01T11:30:00Z"
+  }
+]
